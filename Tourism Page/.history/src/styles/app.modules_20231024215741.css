@@ -1,0 +1,8 @@
+:root{
+    --transparent-white:#dddedd9f;
+}
+
+:root, body{
+    margin: 0;
+    padding: 0;
+}

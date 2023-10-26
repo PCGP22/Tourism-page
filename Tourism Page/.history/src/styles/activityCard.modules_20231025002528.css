@@ -1,0 +1,14 @@
+.activityCard{
+    display: flex;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.activityCard__image{
+    width: clamp(80px, 33%,450px);
+    border-radius: 20px 0 0 20px;
+}
+.activityCard__description{
+    padding: 2%;
+}

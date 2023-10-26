@@ -1,0 +1,12 @@
+.navBar__container{ 
+    position:sticky;
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-gray);
+    color:white;
+    border-radius: 0 0 20px 20px;
+}

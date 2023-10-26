@@ -1,0 +1,283 @@
+{
+    "navBar":{
+        "title":"Tour por México",
+        "links": {
+            "cancun": "Visita Cancún",
+            "vallarta": "Visita Puerto Vallarta",
+            "lucas": "Visita Los Cabos",
+            "chichen": "Visita Chichen Itzá",
+            "tulum": "Visita Tulum"
+        }
+    },
+    "landing_page": {
+        "title": "Tour por México",
+        "header": {
+            "first-line": "Atrévete a explorar algo nuevo,",
+            "second-line": "algo que te dejará sin aliento,",
+            "third-line": "algo como México"
+        },
+        "main": {
+            "welcome":{
+                "title": "Bienvenido",
+                "text": "Aquí en tour por México, encontrarás sorprendentes lugares para que visites en tus próximas vacaciones, en serio esperamos que puedas visitarnos pronto y vivir una aventura emocionante al lado de nuestros guías expertos.",
+                "indication": "(Haz click en las imágenes para mayor información)"
+            },
+            "Travel": {
+                "title":"¿Por qué viajar con nosotros?",
+                "card-one":{
+                    "title": "Seguridad",
+                    "text":"Nos tomamos la seguridad de tú y tus acompañantes muy en serio en todo momento, poniendo a tu disposición nuestro equipo médico y de seguridad 24/7."
+                },
+                "card-two":{
+                    "title": "Experiencia",
+                    "text":"Como expertos en viajes, sólo te ofrecemos lo mejor de lo mejor en actividades a donde sea que viajes."
+                },
+                "card-three":{
+                    "title": "Confort",
+                    "text":"Nuestros vehículos de transporte son selectos para que puedas disfrutar incluso las partes de traslado, sin sentirte limitado."
+                }
+            },
+            "favorites": {
+                "title": "Nuestros favoritos",
+                "text": "En serio amamos estos lugares, sus actividades, paisajes y ambiente nos han llenado de tanta alegría que queremos compartir con tantas personas como podamos, chécalos tú mismo:",
+                "notice": "Nuestros destinos principales son estos, pero México tiene cientos de lugares hermosos, así que también manejamos casos especiales."
+            }
+        }
+    },
+    "carrousel": {
+        "close": "Cerrar",
+        "explore":{
+            "title": "Explora",
+            "text": "Encuentra muchas cosas nuevas por hacer a donde sea que vayas, te invitamos a probarlas todas."
+        },
+        "learn":{
+            "title":"Aprende",
+            "text": "Cada lugar tiene un montón de cuentos, leyendas e historia que te mantendrá cautivado."
+        },
+        "relax":{
+            "title":"Relájate",
+            "text": "Si estás buscando un viaje más tranquilo, te tenemos cubierto con lugares de descanso 5 estrellas."
+        },
+        "family":{
+            "title":"Trae a tu familia",
+            "text": "Tenemos actividades para todas las edades, incluso guarderías para los más pequeños."
+        },
+        "try":{
+            "title":"Prueba nuevas experiencias",
+            "text": "¿Te gustan los deportes extremos? Te tenemos cubierto, desde buceo hasta tirolesas, hay algo para ti ."
+        },
+        "enjoy":{
+            "title":"Disfruta",
+            "text": "Sin importar lo que hagas, estamos seguros que tendrás una experiencia inolvidable, te esperamos."
+        }
+    },
+    "form":{
+        "title": "Contáctanos",
+        "name":"Nombre",
+        "email": "Correo electrónico",
+        "message": "Escribe tu mensaje",
+        "send": "Enviar",
+        "placeholders":{
+            "name": "Ej: Juan Pérez",
+            "email": "Ej: juanperez@correo.com",
+            "message": "10 - 200 caracteres"
+        },
+        "errors":{
+            "name": "El nombre debe ser de 4-30 letras solamente",
+            "email": "Por favor introduce un correo válido",
+            "message": "El mensaje debe ser de entre 10 y 200 caracteres"
+        }
+    },
+    "pages":{
+        "vallarta":{
+            "name":"Puerto Vallarta",
+            "brief": "Bellos paisajes costeros, tiendas, playas y mucho más. Centrado en un ambiente amigable.",
+            "subtitle": "Lugar de costa, playas y cultura",
+            "description": "Puerto Vallarta es un lugar colorido lleno de un calor que sólo los vallartenses saben cómo entregar. Además de esto, hay varias plazas donde puedes comprar recuerdos únicos representando la cultura Huichol y algunas playas hermosas por visitar. Ven a visitar Jalisco",
+            "divisions": {
+                "number" : "siete",
+                "divisions":["Zona norte", "Nuevo Vallarta", "Marina Vallarta", "Zona hotelera", "Zona centro", "Pueblo viejo", "Zona sur"]
+            },
+            "images":[],
+            "activities": [
+                {
+                    "title":"Mercados",
+                    "description":"Mira los recuerdos locales, estamos seguros de que encontrarás los regalos perfectos para tus seres queridos.",
+                    "price": "Precio: Variable"
+                },
+                {
+                    "title":"Buceo",
+                    "description":"Sumérgete en el océano con especialistas entrenados quienes te guiarán mientras descubres la belleza submarina.",
+                    "price": "Precio: 140 - 300 USD/Sesión "
+                },
+                {
+                    "title":"Clubs de playa",
+                    "description":"Disfruta de actividades playeras en compañía de más turistas, la mejor forma de conocer más gente.",
+                    "price": "Precio: 100-250 USD/Día"
+                },
+                {
+                    "title":"Snorkel",
+                    "description":"Nada en aguas poco superficiales y disfruta de la belleza marina en compañía de un guía experto.",
+                    "price": "Precio: 40-120 USD/Hora"
+                },
+                {
+                    "title":"Sitios Arqueológicos",
+                    "description":"Sorpréndete con ruinas antiguas mientras aprendes algo sobre la cultura e historia del sitio.",
+                    "price": "Precio: 20-60 USD/Visita"
+                }
+            ]
+        },
+        "chichen": {
+            "name":"Chichen Itzá",
+            "brief": "Maravilloso sitio arqueológico con relevancia histórica y mucho más para ofrecer de lo que se ve.",
+            "subtitle": "Lugar de cultura y pirámides",
+            "description": "Chichen Itzá es un lugar arqueológico con una de las pirámides más icónicas de todo México, el templo de Kukulkán, hermosos paisajes y mucha cultura. Ven a visitar Yucatán.",
+            "divisions": {
+                "number" : "tres",
+                "divisions":["Plataforma norte", "Grupo Osario", "Grupo central"]
+            },
+            "images":[],
+            "activities": [
+                {
+                    "title":"Renta de bicicletas",
+                    "description":"Renta una para explorar fácilmente el pueblo aledaño, evitar el tráfico y tener un paseo relajante.",
+                    "price": "Precio: 50-150 USD/Día"
+                },
+                {
+                    "title":"Buceo",
+                    "description":"Sumérgete en el océano con especialistas entrenados quienes te guiarán mientras descubres la belleza submarina.",
+                    "price": "Precio: 140 - 300 USD/Sesión "
+                },
+                {
+                    "title":"Tour por la jungla",
+                    "description":"Adéntrate en la jungla con algunas actividades extremas como tirolesas y rappel, todo en un ambiente seguro.",
+                    "price": "Precio: 40-120 USD/Hora"
+                },
+                {
+                    "title":"Clubs de playa",
+                    "description":"Disfruta de actividades playeras en compañía de más turistas, la mejor forma de conocer más gente.",
+                    "price": "Precio: 100-250 USD/Día"
+                },
+                {
+                    "title":"Sitios Arqueológicos",
+                    "description":"Sorpréndete con ruinas antiguas mientras aprendes algo sobre la cultura e historia del sitio.",
+                    "price": "Precio: 20-60 USD/Visita"
+                }
+            ]
+        },
+        "cancun":{
+            "name":"Cancún",
+            "brief": "Ciudad llena de playas, clubes nocturnos, zonas de descanso y más. Todo centrado en la vida nocturna.",
+            "subtitle": "Lugar de playas y vida nocturna.",
+            "description": "Cancún es el destino turístico más visitado de México, y todo se debe a su ambiente festivo y activo, reforzado por sus clubes nocturnos, bares, playas y su gente. Ven a visitar Yucatán.",
+            "divisions": {
+                "number" : "dos",
+                "divisions":["Centro de Cancún", "Zona hotelera"]
+            },
+            "images":[],
+            "activities": [
+                {
+                    "title":"Clubes nocturnos",
+                    "description":"Conoce a más gente o sólo disfruta festejar de noche con comida, música y alcohol.",
+                    "price": "Precio: 0-300 USD/Noche"
+                },
+                {
+                    "title":"Buceo",
+                    "description":"Sumérgete en el océano con especialistas entrenados quienes te guiarán mientras descubres la belleza submarina.",
+                    "price": "Precio: 140 - 300 USD/Sesión "
+                },
+                {
+                    "title":"Clubs de playa",
+                    "description":"Disfruta de actividades playeras en compañía de más turistas, la mejor forma de conocer más gente.",
+                    "price": "Precio: 100-250 USD/Día"
+                },
+                {
+                    "title":"Snorkel",
+                    "description":"Nada en aguas poco superficiales y disfruta de la belleza marina en compañía de un guía experto.",
+                    "price": "Precio: 40-120 USD/Hora"
+                },
+                {
+                    "title":"Sitios Arqueológicos",
+                    "description":"Sorpréndete con ruinas antiguas mientras aprendes algo sobre la cultura e historia del sitio.",
+                    "price": "Precio: 20-60 USD/Visita"
+                }
+            ]
+        },
+        "tulum": {
+            "name":"Tulum",
+            "brief": "Playas y ruinas bien conservadas, un paisaje paradisiaco de historia y relajación.",
+            "subtitle": "Lugar de historia y relajación",
+            "description": "Tulum es una ciudad maya con playas, estructuras antiguas y zonas de descanso, los cuales crean este sentimiento mágico que te transportará a una de tus aventuras más memorables. Ven a visitar Quintana Roo.",
+            "divisions": {
+                "number" : "tres",
+                "divisions":["Sitio arqueológico", "Centro de Tulum", "Zona hotelera"]
+            },
+            "images":[],
+            "activities": [
+                {
+                    "title":"Renta de bicicletas",
+                    "description":"Renta una para explorar fácilmente el pueblo aledaño, evitar el tráfico y tener un paseo relajante.",
+                    "price": "Precio: 50-150 USD/Día"
+                },
+                {
+                    "title":"Buceo",
+                    "description":"Sumérgete en el océano con especialistas entrenados quienes te guiarán mientras descubres la belleza submarina.",
+                    "price": "Precio: 140 - 300 USD/Sesión "
+                },
+                {
+                    "title":"Tour por la jungla",
+                    "description":"Adéntrate en la jungla con algunas actividades extremas como tirolesas y rappel, todo en un ambiente seguro.",
+                    "price": "Precio: 40-120 USD/Hora"
+                },
+                {
+                    "title":"Clubs de playa",
+                    "description":"Disfruta de actividades playeras en compañía de más turistas, la mejor forma de conocer más gente.",
+                    "price": "Precio: 100-250 USD/Día"
+                },
+                {
+                    "title":"Sitios Arqueológicos",
+                    "description":"Sorpréndete con ruinas antiguas mientras aprendes algo sobre la cultura e historia del sitio.",
+                    "price": "Precio: 20-60 USD/Visita"
+                }
+            ]
+        },
+        "cabos": {
+            "name":"Los Cabos",
+            "brief": "Playas, vida nocturna y mucha diversión. Más pequeño que Cancún, pero con su encanto propio.",
+            "subtitle": "Lugar de playas y vida nocturna.",
+            "description": "Los Cabos es un lugar modesto con muchas actividades, especialmente de noche, cuando se transforma en un centro de fiestas, socialización y prueba de cosas nuevas. Ven a visitar Baja California.",
+            "divisions": {
+                "number" : "tres",
+                "divisions":["Cabo San Lucas", "El corredor", "San José del Cabo"]
+            },
+            "images":[],
+            "activities": [
+                {
+                    "title":"Clubes nocturnos",
+                    "description":"Conoce a más gente o sólo disfruta festejar de noche con comida, música y alcohol.",
+                    "price": "Precio: 0-300 USD/Noche"
+                },
+                {
+                    "title":"Buceo",
+                    "description":"Sumérgete en el océano con especialistas entrenados quienes te guiarán mientras descubres la belleza submarina.",
+                    "price": "Precio: 140 - 300 USD/Sesión "
+                },
+                {
+                    "title":"Clubs de playa",
+                    "description":"Disfruta de actividades playeras en compañía de más turistas, la mejor forma de conocer más gente.",
+                    "price": "Precio: 100-250 USD/Día"
+                },
+                {
+                    "title":"Snorkel",
+                    "description":"Nada en aguas poco superficiales y disfruta de la belleza marina en compañía de un guía experto.",
+                    "price": "Precio: 40-120 USD/Hora"
+                },
+                {
+                    "title":"Sitios Arqueológicos",
+                    "description":"Sorpréndete con ruinas antiguas mientras aprendes algo sobre la cultura e historia del sitio.",
+                    "price": "Precio: 20-60 USD/Visita"
+                }
+            ]
+        }
+    }
+}

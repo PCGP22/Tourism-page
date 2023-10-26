@@ -1,0 +1,66 @@
+.description__card{
+    border-radius: 24px;
+    padding: 2% 5%;
+    background-image: linear-gradient(
+        90deg,
+        hsl(33deg 74% 79%) 0%,
+        hsl(34deg 87% 68%) 50%,
+        hsl(35deg 91% 56%) 100%
+    );
+}
+
+.carrousel{
+    position: relative;
+}
+.carrousel__nav{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 40%;
+    border-radius:25px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--transparent-white)
+}
+
+.carrousel__prevButton, .carrousel__nextButton{
+    position: absolute;
+    width: 40px;
+    height: 99%;
+    border: transparent;
+    display: grid;
+    place-content: center;
+    padding: 0 8px;
+}
+.carrousel__prevButton{
+    left:0;
+    background: linear-gradient(to right, black, transparent) 
+}
+
+.carrousel__nextButton{
+    right: 0;
+    background: linear-gradient(to left, black, transparent)
+}
+
+.carrousel__button{
+    font-size: 30px;
+    background-color:white;
+    padding: 8px;
+    border-radius:50%;
+}
+
+.carrousel__nav span:hover{
+    cursor:pointer;
+    font-weight: 800;
+}
+
+.carrouselImg{
+    width: 85vw;
+    height: 500px;
+    object-fit: fill;
+}
+
+.carrousel__prevButton:hover .carrousel__button, .carrousel__nextButton:hover .carrousel__button{
+    background-color:black;
+    color:white;
+}

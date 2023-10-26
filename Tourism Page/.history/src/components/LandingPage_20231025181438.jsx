@@ -1,0 +1,113 @@
+import { useContext } from "react";
+import { languageContext } from "../context/languageContext";
+import NavBar from "./NavBar";
+import TravelCard from "./travelCard";
+import ComplexCarrousel from "./ComplexCarrousel";
+import LocationCard from "./LocationCard";
+import Accordion from "./Accordion";
+import Footer from "./Footer";
+import headerImg from "../img/Header.jpg";
+import cancun from "../img/Cancun.jpg";
+import vallarta from "../img/vallarta.jpg";
+import chichen from "../img/Chichen.webp";
+import cabos from "../img/Cabo San Lucas.jpg";
+import tulum from "../img/Tulum.jpg";
+import english from "../data/english.json";
+import spanish from "../data/spanish.json";
+import "../styles/landingPage.modules.css";
+
+function LandingPage() {
+  const [language] = useContext(languageContext);
+  const locationsSet = [
+    <LocationCard key={"cancun"} img={cancun} location={"cancun"} />,
+    <LocationCard key={"vallarta"} img={vallarta} location={"vallarta"} />,
+    <LocationCard key={"chichen"} img={chichen} location={"chichen"} />,
+    <LocationCard key={"cabos"} img={cabos} location={"cabos"} />,
+    <LocationCard key={"tulum"} img={tulum} location={"tulum"} />,
+  ];
+  return (
+    <div className="pageContainer">
+      <NavBar />
+      <header className="header">
+        <img
+          src={headerImg}
+          alt="tourism in mexico"
+          className="header__image"
+        />
+        <div className="header__card">
+          <h1>
+            {language === "en"
+              ? english.landing_page.title
+              : spanish.landing_page.title}
+          </h1>
+          <p>
+            {language === "en"
+              ? english.landing_page.header["first-line"]
+              : spanish.landing_page.header["first-line"]}
+          </p>
+          <p>
+            {language === "en"
+              ? english.landing_page.header["second-line"]
+              : spanish.landing_page.header["second-line"]}
+          </p>
+          <p>
+            {language === "en"
+              ? english.landing_page.header["third-line"]
+              : spanish.landing_page.header["third-line"]}
+          </p>
+        </div>
+      </header>
+      <main className="landing__main">
+        <h2>
+          {language === "en"
+            ? english.landing_page.main.welcome.title
+            : spanish.landing_page.main.welcome.title}
+        </h2>
+        <p>
+          {language === "en"
+            ? english.landing_page.main.welcome.text
+            : spanish.landing_page.main.welcome.text}
+        </p>
+        <p>
+          {language === "en"
+            ? english.landing_page.main.welcome.indication
+            : spanish.landing_page.main.welcome.indication}
+        </p>
+        <ComplexCarrousel />
+      </main>
+      <section className="landing__section">
+        <h2>
+          {language === "en"
+            ? english.landing_page.main.Travel.title
+            : spanish.landing_page.main.Travel.title}
+        </h2>
+        <div className="landing__cardsContainer">
+          <TravelCard card="card-one revealFromLeft" />
+          <TravelCard card="card-two" />
+          <TravelCard card="card-three revealFromLeft" />
+        </div>
+      </section>
+      <section className="landing__section">
+        <h2>
+          {language === "en"
+            ? english.landing_page.main.favorites.title
+            : spanish.landing_page.main.favorites.title}
+        </h2>
+        <p>
+          {language === "en"
+            ? english.landing_page.main.favorites.text
+            : spanish.landing_page.main.favorites.text}
+        </p>
+        <Accordion itemsSet={locationsSet} />
+        <p className="landing__notice">
+          {language === "en"
+            ? english.landing_page.main.favorites.notice
+            : spanish.landing_page.main.favorites.notice}
+        </p>
+      </section>
+      <Footer />
+    </div>
+  );
+}
+
+export default LandingPage;

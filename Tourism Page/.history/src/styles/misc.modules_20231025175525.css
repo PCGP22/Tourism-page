@@ -1,0 +1,22 @@
+.description__card{
+    border-radius: 24px;
+    padding: 2% 5%;
+    background-image: linear-gradient(
+        90deg,
+        hsl(33deg 74% 79%) 0%,
+        hsl(34deg 87% 68%) 50%,
+        hsl(35deg 91% 56%) 100%
+        );
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}

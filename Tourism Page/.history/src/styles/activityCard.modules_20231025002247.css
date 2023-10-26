@@ -1,0 +1,9 @@
+.activityCard{
+    display: flex;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
+.activityCard__image{
+    max-width: 450px;
+}

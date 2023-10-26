@@ -1,0 +1,33 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--mint);
+    border-radius: 18px;
+    border-bottom: 8px var(--mint) solid;
+
+}
+
+.accordion__division{
+    height: 150px;
+    overflow: hidden;
+    border: 8px var(--mint) solid;
+    border-bottom: 0px;
+    border-radius: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion__division:hover{
+    border: 8px var(--black) solid;
+}
+
+.accordion .accordion__selected{
+    height: 480px;
+    border-radius: 18px;
+}
+
+.accordion .accordion__selected .locationCard__description{
+    color:white;
+    top:0;
+    height: min-content;
+    padding: 2% 5%;
+}

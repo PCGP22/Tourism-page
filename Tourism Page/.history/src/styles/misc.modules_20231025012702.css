@@ -1,0 +1,41 @@
+.description__card{
+    border-radius: 24px;
+    padding: 2% 5%;
+    background-image: linear-gradient(
+        90deg,
+        hsl(33deg 74% 79%) 0%,
+        hsl(34deg 87% 68%) 50%,
+        hsl(35deg 91% 56%) 100%
+    );
+}
+
+.locationCard{
+    position: relative;
+   margin:0;
+}
+
+.locationCard__img{
+    width: 80vw;
+    border-radius:24px;
+}
+
+.locationCard__description{
+    width:90%;
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion div{
+    height: 100px;
+    overflow: hidden;
+}
+.accordion__selected{
+    height: auto;
+}

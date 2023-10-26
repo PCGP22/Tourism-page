@@ -1,0 +1,15 @@
+:root{
+    --transparent-white:#dddedd9f;
+    --background-white: #f6f6f6;
+}
+
+:root, body{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    background-color:var(--background-white);
+}
+
+@media (width < 600px){
+    :root, body{font-size: 14px;}
+}

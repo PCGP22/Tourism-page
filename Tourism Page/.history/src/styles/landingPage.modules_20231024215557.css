@@ -1,0 +1,19 @@
+.landing__header{
+    position: relative;
+}
+
+.landing__header__image{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.landing__header__card{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: var(--transparent-white);
+    backdrop-filter: blur(10px);
+}

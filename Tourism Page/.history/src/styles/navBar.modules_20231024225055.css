@@ -1,0 +1,47 @@
+.navBar__container{ 
+    position:sticky;
+    top:0;
+    z-index: 5;
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--dark-gray);
+    color:white;
+    border-radius: 0 0 20px 20px;
+}
+
+.navBar__logo{
+    display: grid;
+    place-content: center;
+    border: black 4px solid;
+    padding: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        145deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(31deg 100% 96%) 11%,
+        hsl(31deg 100% 91%) 22%,
+        hsl(31deg 100% 87%) 33%,
+        hsl(31deg 100% 83%) 44%,
+        hsl(31deg 100% 79%) 56%,
+        hsl(31deg 100% 74%) 67%,
+        hsl(31deg 100% 70%) 78%,
+        hsl(31deg 99% 65%) 89%,
+        hsl(32deg 96% 60%) 100%
+      );
+}
+
+.navBar__logo:hover{
+    border: white 4px solid;
+}
+
+.navBar__burguerButton{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    font-size: 20px;
+}

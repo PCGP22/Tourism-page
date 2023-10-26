@@ -1,0 +1,52 @@
+.header, .landing__main, .landing__section, .location__section{
+    position: relative;
+    place-content: center;
+    display: grid;
+}
+
+.header{
+    margin-top: 40px;
+}
+
+.landing__main, .landing__section, .location__section{
+    margin: auto;
+    max-width: 80vw;
+    margin: 0px auto 80px auto;
+}
+
+.header__image{
+    width: 90vw;
+    height: 400px;
+    object-fit: fill;
+}
+
+.header__card{
+    margin-right: 15%;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    padding: 10px 20px;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: var(--transparent-white);
+    backdrop-filter: blur(10px);
+}
+
+.landing__cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 18px;
+    align-items: stretch;
+}
+
+.landing__notice{
+    border: black 8px solid;
+    padding: 30px 0;
+    border-left: transparent 4px solid;
+    border-right: transparent 4px solid;
+}
+
+.location__list{
+    margin-top: 40px;
+}

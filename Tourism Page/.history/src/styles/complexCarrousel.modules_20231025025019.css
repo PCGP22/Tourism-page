@@ -1,0 +1,57 @@
+
+.complexCarrousel{
+    position: relative;
+}
+
+.images__grid{
+    display: grid;
+    grid-template-areas: 
+    "one one two"
+    "three four four"
+    "five five six";
+    gap:20px;
+}
+
+.images__grid__img{
+    width:100%;
+    border-radius:16px;
+    object-fit: cover;
+}
+
+.images__grid__img:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.images__grid__one{
+    grid-area: one;
+}
+.images__grid__two{
+    grid-area: two;
+}
+.images__grid__three{
+    grid-area: three;
+}
+.images__grid__four{
+    grid-area: four;
+}
+.images__grid__five{
+    grid-area: five;
+}
+.images__grid__six{
+    grid-area: six;
+}
+
+.carrousel__container{
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.carrousel__container__visible{
+    height: min-content;
+}

@@ -1,0 +1,21 @@
+:root{
+    --transparent-white:#dddedd9f;
+    --background-white: #f6f6f6;
+    --black: #222;
+    --dark-gray: #5c5d5c;
+}
+
+:root, body{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    background-color:var(--background-white);
+}
+.pageContainer{
+    height: max-content;
+}
+
+
+@media (width < 600px){
+    :root, body{font-size: 14px;}
+}
